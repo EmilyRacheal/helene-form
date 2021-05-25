@@ -4,7 +4,11 @@
       padding-top: 30px !important;
     }
 
-    .p20{
+    .sm-center{
       text-align: center;
+    }
+    .image-center img{
+      text-align: center;
+      width: 70%;
     }
   }
