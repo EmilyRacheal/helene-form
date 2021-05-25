@@ -1,0 +1,20 @@
+body{
+    /* height: 100vh; */
+}
+.push-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.p20{
+    padding: 20px;
+}
+/* 
+input[type="checkbox"] {
+    background: #990000 !important;    
+}
+
+.chk {
+   background-color: #990000 !important;  
+} */
