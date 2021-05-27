@@ -1,5 +1,4 @@
 body{
-    /* height: 100vh; */
 }
 .push-center{
     display: flex;
@@ -13,4 +12,12 @@ body{
 
 .img-side{
     width: 90%;
+}
+.logo{
+    width:  10%;
+    margin-top:10px;
+}
+
+.font{
+    font-size: 12px !important;
 }
