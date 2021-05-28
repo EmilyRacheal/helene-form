@@ -32,7 +32,7 @@ body{
 } */
 
 .hel-img{
-    background: linear-gradient(rgba(20, 160, 219, 0.6),rgba(20, 160, 219, 0.6)), url("../img/image-helene.png");
+    background: linear-gradient(rgba(20, 160, 219, 0.6),rgba(20, 160, 219, 0.6)), url("../img/man.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
