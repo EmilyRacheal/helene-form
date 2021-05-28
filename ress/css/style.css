@@ -36,14 +36,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 92vh;
 }
 
 .hel-img h3{
     color: #fff;
     padding: 10px;
-    padding-top: 50px !important;
-    font-weight: 500;
+    padding-top: 90px !important;
+    font-weight: 700;
 }
 
 .play-center{
@@ -66,4 +66,22 @@ body{
 .text-col p{
     font-size: 20px;
     
+    
+}
+.para p{
+    line-height: 0.1rem;
+}
+
+.form{
+    padding-top: 40px;
+}
+
+ .powered h6{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.powered span{
+    color: #14a0db;
 }
