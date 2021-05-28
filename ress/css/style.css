@@ -1,6 +1,6 @@
 body{
 }
-.push-center{
+ .push-center{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,4 +20,26 @@ body{
 
 .font{
     font-size: 12px !important;
+} 
+
+/* .image-helene{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../img/image-helene.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 90px;
+
+} */
+
+.hel-img{
+    background: linear-gradient(rgba(20, 160, 219, 0.6),rgba(20, 160, 219, 0.6)), url("../img/image-helene.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+.hel-img h3{
+    color: #fff;
+    padding: 10px;
 }

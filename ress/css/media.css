@@ -1,5 +1,5 @@
 @media only screen and (max-width: 600px ) {
-    body {
+     body {
       padding: 0px !important;
       padding-top: 30px !important;
     }
@@ -23,12 +23,12 @@
     }
     .display{
       display: inline;
-    }
+    } 
 
   }
 
-  @media only screen and (min-width: 768px) {
+   @media only screen and (min-width: 768px) {
    .display{
      display: none;
    }
-  }
+  } 
