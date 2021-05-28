@@ -7,75 +7,97 @@
     <link rel="stylesheet" href="ress/css/materialize.min.css">
     <link rel="stylesheet" href="ress/css/style.css">
     <link rel="stylesheet" href="ress/css/media.css">
+    <link rel="stylesheet" href="ress/fontawe/fontawesome-free-5.15.2-web/css/all.css">
     <title>Document</title>
 </head>
-<body style=" padding: 20px; padding-top: 90px;">
+<body>
+  <div class="d-md-sm">
+    <div class="bg-blue">
+      <div class="white">
+        <img src="ress/img/logo.jpeg" alt="" srcset="" width="30%">
+      </div>
+      <div class="center" style="height: 65vh;">
+        <img src="ress/img/phone.png"  class="responsive-ig" height="90%">
+      </div>
+      <div class="center text-col">
+        <h3>HELENE</h3>
+        <p>Africa's #1 Business <br> Management Tool</p>
+        <div>
+          <a href="#"><img src="ress/img/play store logo.png" alt="" srcset="" class="responsive-img" width="50%"></a>
+        </div>
+      </div>
+
+    </div>
+    
+  </div>
+  <div style=" padding: 20px; padding-top: 90px;" class="d-md-block">
     <div class="container push-center " >
       <div class="row">
         <div class="col s10 offset-s1">
           <div class="row white z-depth-5">
             <div class="col s12 m6 hel-img" >
               <!-- style="margin-top: 60px" --> 
-              <h3>MANAGE YOUR BUSINESS SEEMLESSLY WITH HELENE</h3>
+              <h3 class="left-align">MANAGE YOUR BUSINESS SEEMLESSLY WITH HELENE</h3>
+              <img src="ress/img/play store logo.png" alt="" srcset="" width="40%" class="responsive-img play-center">
             </div>
             <div class="col s12 m6">
                 <div class="p20 sm-center d-none">
+                  <img src="ress/img/helene-logo.png" alt="" srcset="" width="10%">
                     <h5> <b>Helene Business </b></h5>
-                    <p> Efficiency and Productivity is what we do.
-                    </p>
-                </div>
-                <div class="row d-none">
-                    <form class="col s12">
-                      <div class="row ">
-                        <div class="input-field col s6" style="margin: 0 !important; ">
-                          <input id="first_name" type="text" class="validate ">
-                          <label for="first_name" class="font">First Name</label>
+                    <p> Efficiency and Productivity is what we do.</p>
+                    <div class="row d-none">
+                      <form class="col s12">
+                        <div class="row ">
+                          <div class="input-field col s6" style="margin: 0 !important; ">
+                            <input id="first_name" type="text" class="validate ">
+                            <label for="first_name" class="font">First Name</label>
+                          </div>
+                          <div class="input-field col s6"  style="margin: 0 !important;">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name" class="font">Last Name</label>
+                          </div>
+                          <div class="input-field col s6"  style="margin: 0 !important;">
+                            <input id="email" type="email" class="validate">
+                            <label for="email " class="font">Email</label>
+                          </div>
+                          <div class="input-field col s6"  style="margin: 0 !important;">
+                            <input id="phone" type="tel" class="validate">
+                            <label for="phone" class="font">Phone Number</label>
+                          </div>
+                          <div class="input-field col s6"  style="margin: 0 !important;">
+                            <input id="businessname" type="text" class="validate">
+                            <label for="businessname" class="font">Business Name</label>
+                          </div>
+                          <div class="input-field col s6"  style="margin: 0 !important;">
+                            <input id="businessname" type="text" class="validate">
+                            <label for="businessaddress" class="font">Business Address</label>
+                          </div>
+                          <div class="input-field col s12"  style="margin: 0 !important;">
+                            <select >
+                              <option value="" disabled selected >Business Category</option>
+                              <option value="1" class="font">Option 1</option>
+                              <option value="2" class="font">Option 2</option>
+                              <option value="3" class="font">Option 3</option>
+                            </select>
+                          </div>
                         </div>
-                        <div class="input-field col s6"  style="margin: 0 !important;">
-                          <input id="last_name" type="text" class="validate">
-                          <label for="last_name" class="font">Last Name</label>
+                        <div class="row">
+                          <div class="input-field col s7"  style="margin: 0 !important;">
+                            <label >
+                                <input type="checkbox" class="filled-in card-panel orange lighten-2"  />
+                                <span>Terms and Conditions</span>
+                              </label>
                         </div>
-                        <div class="input-field col s6"  style="margin: 0 !important;">
-                          <input id="email" type="email" class="validate">
-                          <label for="email " class="font">Email</label>
-                        </div>
-                        <div class="input-field col s6"  style="margin: 0 !important;">
-                          <input id="phone" type="tel" class="validate">
-                          <label for="phone" class="font">Phone Number</label>
-                        </div>
-                        <div class="input-field col s6"  style="margin: 0 !important;">
-                          <input id="businessname" type="text" class="validate">
-                          <label for="businessname" class="font">Business Name</label>
-                        </div>
-                        <div class="input-field col s6"  style="margin: 0 !important;">
-                          <input id="businessname" type="text" class="validate">
-                          <label for="businessaddress" class="font">Business Address</label>
-                        </div>
-                        <div class="input-field col s6"  style="margin: 0 !important;">
-                          <select >
-                            <option value="" disabled selected style="font-size: 2px;" >Business Category</option>
-                            <option value="1" class="font">Option 1</option>
-                            <option value="2" class="font">Option 2</option>
-                            <option value="3" class="font">Option 3</option>
-                          </select>
+                          <div class="input-field col s5"  style="margin: 0 !important; ">
+                              <a class="waves-effect waves-light btn " style="background-color: #f98404; width: 100%;">Register <i class="fas fa-check-circle"></i></a>
+                          </div>
                           
                         </div>
-                      </div>
-                      <div class="row">
-                        <div class="input-field col s6"  style="margin: 0 !important;">
-                          <label >
-                              <input type="checkbox" class="filled-in card-panel orange lighten-2" checked="checked" />
-                              <span>Terms and Conditions</span>
-                            </label>
-                      </div>
-                        <div class="input-field col s6"  style="margin: 0 !important; ">
-                            <a class="waves-effect waves-light btn" style="background-color: #f98404; width: 100%; border-radius: 20px;">Sign Up</a>
-                        </div>
                         
-                      </div>
-                      
-                    </form>
-                  </div>
+                      </form>
+                    </div>
+                </div>
+                
                   
                   <div class="display d-none">
                     <a class="waves-effect waves-light btn " style="background-color: #f98404; width: 100%; border-radius: 20px;">Download App</a>
@@ -88,6 +110,8 @@
       </div>
         
     </div>
+  </div>
+    
     
 
     <script src="ress/js/jquery.min.js"></script>

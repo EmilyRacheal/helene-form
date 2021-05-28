@@ -36,10 +36,34 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 70vh;
+    height: 80vh;
 }
 
 .hel-img h3{
     color: #fff;
     padding: 10px;
+    padding-top: 50px !important;
+    font-weight: 500;
+}
+
+.play-center{
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.busi-font{
+    font-size: 5px !important;
+}
+
+.bg-blue{
+    background: linear-gradient(to right bottom, rgba(20, 160, 219, 0.9) 50%,rgba(255, 255, 255, 0.9) 50%);
+}
+
+.text-col h3{
+    color: #14a0db;
+}
+
+.text-col p{
+    font-size: 20px;
+    
 }
