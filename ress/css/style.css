@@ -56,7 +56,7 @@ body{
 }
 
 .bg-blue{
-    background: linear-gradient(to right bottom, rgba(20, 160, 219, 0.9) 50%,rgba(255, 255, 255, 0.9) 50%);
+    /* background: linear-gradient(to right bottom, rgba(20, 160, 219, 0.9) 50%,rgba(255, 255, 255, 0.9) 50%); */
 }
 
 .text-col h3{
