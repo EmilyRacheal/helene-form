@@ -58,6 +58,18 @@ body{
 .bg-blue{
     /* background: linear-gradient(to right bottom, rgba(20, 160, 219, 0.9) 50%,rgba(255, 255, 255, 0.9) 50%); */
 }
+/* ====mobile view styling ==== */
+.manage{
+    line-height: 0.1rem;
+}
+
+.text-col{
+    margin-top: 200px;
+}
+
+.google-play{
+    margin-top: 80px;
+}
 
 .text-col h3{
     color: #14a0db;
@@ -65,6 +77,7 @@ body{
 
 .text-col p{
     font-size: 20px;
+    
     
     
 }
