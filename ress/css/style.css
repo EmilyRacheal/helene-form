@@ -1,5 +1,8 @@
 body{
+    margin: 0px;
+    padding: 0px;
 }
+
  .push-center{
     display: flex;
     justify-content: center;
@@ -10,26 +13,9 @@ body{
     padding: 20px;
 }
 
-.img-side{
-    width: 90%;
-}
-.logo{
-    width:  10%;
-    margin-top:10px;
-}
-
 .font{
     font-size: 12px !important;
 } 
-
-/* .image-helene{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../img/image-helene.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 90px;
-
-} */
 
 .hel-img{
     background: linear-gradient(rgba(20, 160, 219, 0.6),rgba(20, 160, 219, 0.6)), url("../img/man.jpg");
@@ -55,9 +41,12 @@ body{
     font-size: 5px !important;
 }
 
-.bg-blue{
-    /* background: linear-gradient(to right bottom, rgba(20, 160, 219, 0.9) 50%,rgba(255, 255, 255, 0.9) 50%); */
+.form{
+    padding-top: 40px;
 }
+
+
+
 /* ====mobile view styling ==== */
 .manage{
     line-height: 0.1rem;
@@ -77,17 +66,13 @@ body{
 
 .text-col p{
     font-size: 20px;
-    
-    
-    
 }
 .para p{
     line-height: 0.1rem;
+    
 }
 
-.form{
-    padding-top: 40px;
-}
+
 
  .powered h6{
     padding-top: 40px;
