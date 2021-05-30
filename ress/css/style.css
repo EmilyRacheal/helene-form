@@ -45,6 +45,21 @@ body{
     padding-top: 40px;
 }
 
+.dropdown-content li>a, .dropdown-content li>span{
+    color: red;
+}
+
+.select-dropdown li.disabled,
+.select-dropdown li.disabled>span,
+.select-dropdown li.optgroup {
+    color: gray;
+    font-size: 12px;
+}
+
+
+.select-wrapper input.select-dropdown{
+    font-size: 12px !important;
+}
 
 
 /* ====mobile view styling ==== */
